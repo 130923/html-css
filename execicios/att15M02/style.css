@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/*
+EM HTML É ID = EM CSS É # (só um elemnto )
+EM HTML É CLASS = EM CSS É . (varios elementos)
+*/
+body{
+    background-color: rgb(205, 255, 203);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+    color: rgb(4, 109, 0);
+
+
+}
+h1#principal{
+    color: red;
+}
+h2{
+    color: rgb(73, 109, 71);
+
+}
+.opa{
+    color: blue;
+
+}

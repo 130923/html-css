@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens dinamicas </title>
+</head>
+<body>
+    <h1>imagens dinamicas </h1>
+    <p>tente abrir esse site em varios dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador </p>
+    
+    <picture>
+        <source media="(max-width: 800px )" srcset="imagens/imagem-P.png" type="image/png">
+        <source media="(max-width:950px )" srcset="imagens/imagem-M.png" type="image/png">
+        <img src="imagens/imagem-G.png" alt="imagem flexsivel">
+
+    </picture>
+    <h1>reprduzindo audios </h1>
+    <p>vamos aprender a reproduzir audios em HTML5
+    </p>
+    <audio src="rock.mp3" controls autoplay></audio>
+</body>
+   
+</html>
+ <!-- MP3 WAV OGG
+    OU PODE SER ASSIM 
+    source src="rock.mp3" type="audio/mpeg">
+    <source src="rock.ogg" type="audio/ogg">
+    <source src="rock.wav" type="audio/wav">
+    DE TODOS OS TIPOS 
+    WAV PESADO!!! CUIDADO 
